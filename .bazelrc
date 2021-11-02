@@ -1,0 +1,60 @@
+build --apple_platform_type=ios
+
+# Somehow we must change this version to 10.7
+# it because when we compile cc_binary and we set the ios_minimum_os to 10.0
+# the flag of mmacos-min-version are respect to the ios_minimum_os instead of mac_minimum_os
+# if we doesn't change the ios min version it will make the compiler failed to compile
+# -stdlib=libc++ require MacOS 10.7 or later
+# but this flag still working well when we run on iOS compiling
+build --ios_minimum_os=11.0
+build --watchos_minimum_os=3.0
+
+build --spawn_strategy=local
+build --features=swift.use_global_module_cache
+build --swiftcopt=-whole-module-optimization 
+build --host_swiftcopt=-whole-module-optimization
+
+# This Flag is used due of this issue
+# https://github.com/bazelbuild/bazel/issues/10674#issuecomment-658270895
+
+build --incompatible_objc_compile_info_migration
+
+# For local coding with Tulsi. Some important things in here:
+# 1. Setup the disk cache automatically
+# 2. Ensure building from CLI and Tulsi share the same output
+#    Without these configs, the build result of CLI cannot be reused by Tulsi and vice versa.
+#    The builds will take longer and the cache could be 2x bigger.
+build:coding --disk_cache=~/.bazel_cache
+
+# The same cpu flag used by Tulsi for simulator build.
+# If you want to build for device, set the device flag AFTER this config
+# to override the simulator flags
+# Example: bazelisk build --config=coding --config=device
+build:coding --config=simulator 
+
+# These four next flags are taken from Tulsi to ensure the same build output.
+build:coding --define=apple.add_debugger_entitlement=1 
+build:coding --define=apple.propagate_embedded_extra_outputs=1 
+build:coding --define=apple.experimental.tree_artifact_outputs=1 
+build:coding --features=debug_prefix_map_pwd_is_dot 
+
+# CLI and Tulsi builds have different PATH environment variables.
+# This flag is to ensure they both have the same PATH
+build:coding --incompatible_strict_action_env
+
+# Enable lldb support
+# build:coding --features=swift.cacheable_swiftmodules
+build:coding --features=swift.debug_prefix_map
+
+# Show codes with long compile time
+build:coding --swiftcopt=-Xfrontend
+build:coding --swiftcopt=-warn-long-expression-type-checking=50
+build:coding --compilation_mode=dbg # Default compilation mode in Tulsi
+build:coding --define=use_devtools=1
+
+# Exclude Appex, to improve auto complete
+build:coding --define=exclude_app_extension=1
+
+# Explicitly state the target CPU so that the output is the same
+# between calling bazelisk build manually vs building from Tulsi
+build:simulator --cpu=ios_x86_64 
