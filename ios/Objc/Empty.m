@@ -1,6 +1,8 @@
 #import "Empty.h"
-#import "<EmptySwift/EmptySwift-Swift.h>"
-@import EmptySwift;
+// #import "<EmptySwift/EmptySwift-Swift.h>"
+// @import EmptySwift;
+
+@import Foo;
 
 @implementation Hmac
     

@@ -1,10 +1,7 @@
 objc_library(
-    name = 'Objc',
+    name = 'Foo',
     enable_modules = True,
     srcs = glob(['**/*.m']),
     hdrs = glob(['**/*.h']),
-    deps = [
-        '//ios/Foo',
-    ],
     visibility = ['//visibility:public'],
 )
