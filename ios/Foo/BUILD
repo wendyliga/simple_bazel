@@ -3,5 +3,10 @@ objc_library(
     enable_modules = True,
     srcs = glob(['**/*.m']),
     hdrs = glob(['**/*.h']),
+    copts = [
+        '-fmodules',
+        '-fmodule-name',
+        'Foo',
+    ],
     visibility = ['//visibility:public'],
 )

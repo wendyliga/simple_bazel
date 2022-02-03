@@ -1,0 +1,12 @@
+{
+  "configDefaults" : {
+    "optionSet" : {
+
+    }
+  },
+  "packages" : [
+    "ios/DummyTest"
+  ],
+  "projectName" : "simple_bazel",
+  "workspaceRoot" : ".."
+}
