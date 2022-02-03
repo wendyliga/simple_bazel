@@ -10,5 +10,5 @@ ios_unit_test(
     name = "DummyTest",
     minimum_os_version = "11.0",
     deps = [":Sources"],
-    infoplists = ["Info.plist"],
+    infoplists = [":Info.plist"],
 )
