@@ -5,7 +5,8 @@
     "ios/DummyUITest/BUILD"
   ],
   "buildTargets" : [
-    "//ios/DummyTest:DummyTest"
+    "//ios/DummyApplication:DummyApplication",
+    "//ios/DummyUITest:DummyUITest"
   ],
   "optionSet" : {
     "BazelBuildOptionsDebug" : {

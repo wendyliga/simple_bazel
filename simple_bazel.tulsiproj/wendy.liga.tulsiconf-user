@@ -3,7 +3,16 @@
     "BazelPath" : {
       "p" : "/opt/homebrew/bin/bazel"
     },
+    "DeletePreviousXcodeproj" : {
+      "p" : "YES"
+    },
+    "OpenXcode" : {
+      "p" : "YES"
+    },
     "WorkspaceRootPath" : {
+      "p" : "/Users/wendy.liga/Developer/simple_bazel"
+    },
+    "XcodeprojOutputPath" : {
       "p" : "/Users/wendy.liga/Developer/simple_bazel"
     }
   }

@@ -5,7 +5,9 @@
     }
   },
   "packages" : [
-    "ios/DummyTest"
+    "ios/DummyApplication",
+    "ios/DummyTest",
+    "ios/DummyUITest"
   ],
   "projectName" : "simple_bazel",
   "workspaceRoot" : ".."
