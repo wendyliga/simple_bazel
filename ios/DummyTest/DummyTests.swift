@@ -2,7 +2,7 @@ import XCTest
 
 final class DummyTests: XCTestCase {
     func test() {
-        XCTAssertTrue(false)
+        XCTAssertTrue(true)
     }
     
     func test_success() {

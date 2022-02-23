@@ -13,3 +13,11 @@ build --spawn_strategy=local
 build --features=swift.use_global_module_cache
 build --swiftcopt=-whole-module-optimization 
 build --host_swiftcopt=-whole-module-optimization
+
+test --curses=no
+test --compilation_mode=fastbuild
+test --show_timestamps
+test --verbose_failures
+test --test_output=all
+test --build_tests_only
+test --test_timeout=3600
