@@ -48,23 +48,23 @@ import GroupActivities
 internal var bag = Set<AnyCancellable>()
 
 @available(iOS 15, *)
-internal struct ShopTogether: GroupActivity {
-    internal static let activityIdentifier = "com.tokopedia.shop-together"
+internal struct GroupActivityExample: GroupActivity {
+    internal static let activityIdentifier = "com.example.GroupActivityExample"
     internal var metadata: GroupActivityMetadata {
         var metadata = GroupActivityMetadata()
         metadata.type = .generic
-        metadata.title = NSLocalizedString("Tokopedia", comment: "")
-        metadata.subtitle = NSLocalizedString("Share products", comment: "")
-        metadata.previewImage = UIImage(named: "MainAppIcon")?.cgImage
+        metadata.title = NSLocalizedString("GroupActivityExample", comment: "")
+        metadata.subtitle = NSLocalizedString("Hello World", comment: "")
+        metadata.previewImage = UIImage(named: "AppIcon")?.cgImage
         return metadata
     }
     
     static func test() {
         Task {
             do {
-                _ = try await ShopTogether().activate()
+                _ = try await GroupActivityExample().activate()
             } catch {
-//                NewRelicInterface.recordCustomEvent("SharedShopping", attributes: ["error": .string(error.localizedDescription)])
+                print("error", error.localizedDescription)
             }
         }
     }
