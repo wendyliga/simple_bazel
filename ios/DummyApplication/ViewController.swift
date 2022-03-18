@@ -40,3 +40,32 @@ final class ViewController: UIViewController {
         fatalError("init(coder:) has not been implemented")
     }
 }
+
+import Combine
+import GroupActivities
+
+@available(iOS 13, *)
+internal var bag = Set<AnyCancellable>()
+
+@available(iOS 15, *)
+internal struct ShopTogether: GroupActivity {
+    internal static let activityIdentifier = "com.tokopedia.shop-together"
+    internal var metadata: GroupActivityMetadata {
+        var metadata = GroupActivityMetadata()
+        metadata.type = .generic
+        metadata.title = NSLocalizedString("Tokopedia", comment: "")
+        metadata.subtitle = NSLocalizedString("Share products", comment: "")
+        metadata.previewImage = UIImage(named: "MainAppIcon")?.cgImage
+        return metadata
+    }
+    
+    static func test() {
+        Task {
+            do {
+                _ = try await ShopTogether().activate()
+            } catch {
+//                NewRelicInterface.recordCustomEvent("SharedShopping", attributes: ["error": .string(error.localizedDescription)])
+            }
+        }
+    }
+}
