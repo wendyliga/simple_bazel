@@ -7,7 +7,9 @@
   "packages" : [
     "ios/DummyApplication",
     "ios/DummyTest",
-    "ios/DummyUITest"
+    "ios/DummyUITest",
+    "ios/ObjcLibrary",
+    "ios/SwiftLibrary"
   ],
   "projectName" : "simple_bazel",
   "workspaceRoot" : ".."

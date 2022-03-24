@@ -1,11 +1,12 @@
-#import "Foo.h"
+#import "Empty.h"
 
-@implementation User
+@implementation Empty
     
 - (id)init {
     self = [super init];
     
     return self;
 }
+
 
 @end
