@@ -1,12 +1,10 @@
 load("@build_bazel_rules_apple//apple:ios.bzl", "ios_unit_test")
+load("@build_bazel_rules_swift//swift:swift.bzl", "swift_library")
 
-objc_library(
+swift_library(
     name = 'Source',
     module_name = 'Source',
-    enable_modules = True,
-    hdrs = glob(["**/*.h"]),
-    srcs = glob(["**/*.m"]),
-    sdk_frameworks = ['UITest'],
+    srcs = glob(['**/*.swift']),
     visibility = ['//visibility:public'],
 )
 
