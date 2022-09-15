@@ -2,11 +2,11 @@
   "additionalFilePaths" : [
     "ios/DummyApplication/BUILD",
     "ios/DummyTest/BUILD",
-    "ios/DummyUITest/BUILD"
+    "ios/SwiftLibrary/BUILD"
   ],
   "buildTargets" : [
     "//ios/DummyApplication:DummyApplication",
-    "//ios/DummyUITest:DummyUITest"
+    "//ios/DummyTest:DummyTest"
   ],
   "optionSet" : {
     "BazelBuildOptionsDebug" : {
