@@ -6,7 +6,6 @@ build --spawn_strategy=local
 build --features=swift.use_global_module_cache
 build --swiftcopt=-whole-module-optimization 
 build --host_swiftcopt=-whole-module-optimization
-build --subcommands
 build --verbose_failures
 
 test --curses=no

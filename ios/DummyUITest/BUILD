@@ -3,6 +3,7 @@ load("@build_bazel_rules_swift//swift:swift.bzl", "swift_library")
 
 swift_library(
     name = 'Source',
+    testonly = True,
     module_name = 'DummyUITest',
     srcs = glob(['**/*.swift'])
 )
