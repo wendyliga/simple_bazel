@@ -1,4 +1,5 @@
 load("@bazel_tools//tools/build_defs/repo:http.bzl", "http_archive")
+load("@bazel_tools//tools/build_defs/repo:http.bzl", "http_archive")
 
 http_archive(
     name = "build_bazel_rules_apple",
@@ -33,3 +34,11 @@ load(
 )
 
 apple_support_dependencies()
+
+http_archive(
+    name = 'RxSwift',
+    url = 'https://github.com/ReactiveX/RxSwift/archive/refs/tags/6.2.0.tar.gz',
+    build_file = '//vendor:RxSwift.BUILD',
+    sha256 = '999f584411d649069d56ab4faee8a4a057c528223cb7781646c31e5a927392b6',
+    strip_prefix = 'RxSwift-6.2.0'
+)

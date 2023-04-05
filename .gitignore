@@ -124,3 +124,6 @@ iOSInjectionProject/
 /bazel-*
 
 # End of https://www.toptal.com/developers/gitignore/api/macos,swift
+
+
+vendor/bundle
