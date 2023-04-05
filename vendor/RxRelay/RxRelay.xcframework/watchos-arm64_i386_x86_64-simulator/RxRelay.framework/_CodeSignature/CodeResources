@@ -6,83 +6,51 @@
 	<dict>
 		<key>Headers/RxRelay-Swift.h</key>
 		<data>
-		vsDeZuGi9t7lJYDM76V7IaR9GKc=
+		6qc7Z1ADByE/Pa9xRI8WhM2KeXY=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		AJE20VKEYawIep7ytVKI4bYcdKk=
+		TO5S3tUk40zl8KYC1vnCwOlBLi8=
 		</data>
 		<key>Modules/RxRelay.swiftmodule/arm64-apple-watchos-simulator.swiftdoc</key>
 		<data>
-		ARbxZllx9Phxl/1PJI1iE4Q6QYs=
+		HOWNiPr/GBSdBHpSk2AvC/9UbsE=
 		</data>
 		<key>Modules/RxRelay.swiftmodule/arm64-apple-watchos-simulator.swiftinterface</key>
 		<data>
-		gcBGs1q8dGSey1/nKhk+lEtgz/0=
+		F/1Bk3S2lRAuBWPSizReOsHPZD8=
 		</data>
 		<key>Modules/RxRelay.swiftmodule/arm64-apple-watchos-simulator.swiftmodule</key>
 		<data>
-		8XcaHXFm8yVioxBvfRuNrYth8DE=
-		</data>
-		<key>Modules/RxRelay.swiftmodule/arm64.swiftdoc</key>
-		<data>
-		ARbxZllx9Phxl/1PJI1iE4Q6QYs=
-		</data>
-		<key>Modules/RxRelay.swiftmodule/arm64.swiftinterface</key>
-		<data>
-		gcBGs1q8dGSey1/nKhk+lEtgz/0=
-		</data>
-		<key>Modules/RxRelay.swiftmodule/arm64.swiftmodule</key>
-		<data>
-		8XcaHXFm8yVioxBvfRuNrYth8DE=
+		L0R2yIO66FRrrcxGmCuRexURy1U=
 		</data>
 		<key>Modules/RxRelay.swiftmodule/i386-apple-watchos-simulator.swiftdoc</key>
 		<data>
-		NVjhg2VJevPTarQQCgK4PT1eqKA=
+		wdVxvsxEjMx4N9rEGLIvREmSkPI=
 		</data>
 		<key>Modules/RxRelay.swiftmodule/i386-apple-watchos-simulator.swiftinterface</key>
 		<data>
-		4TS8/n2aHkDXcnrsSU19gkj/3IQ=
+		/DaEDHuQ4Lzg7I8EPOqeJIYS7ZU=
 		</data>
 		<key>Modules/RxRelay.swiftmodule/i386-apple-watchos-simulator.swiftmodule</key>
 		<data>
-		Qm5XWb0wwcsxzdKdYTBXyErE3xo=
-		</data>
-		<key>Modules/RxRelay.swiftmodule/i386.swiftdoc</key>
-		<data>
-		NVjhg2VJevPTarQQCgK4PT1eqKA=
-		</data>
-		<key>Modules/RxRelay.swiftmodule/i386.swiftinterface</key>
-		<data>
-		4TS8/n2aHkDXcnrsSU19gkj/3IQ=
-		</data>
-		<key>Modules/RxRelay.swiftmodule/i386.swiftmodule</key>
-		<data>
-		Qm5XWb0wwcsxzdKdYTBXyErE3xo=
+		kpNgv6Q+CvLPc41aGLHCOYocGFw=
 		</data>
 		<key>Modules/RxRelay.swiftmodule/x86_64-apple-watchos-simulator.swiftdoc</key>
 		<data>
-		g7QxgElR3vdLfgtenQy3VH6FDjM=
+		XU9c0Jk2h58xP+BSbQn9vH6T1/s=
 		</data>
 		<key>Modules/RxRelay.swiftmodule/x86_64-apple-watchos-simulator.swiftinterface</key>
 		<data>
-		sjnZB8DMKaSDkhfYILlBk0bD+5s=
+		fhFI2DXb+SQv4adK/ulCYugK0oI=
 		</data>
 		<key>Modules/RxRelay.swiftmodule/x86_64-apple-watchos-simulator.swiftmodule</key>
 		<data>
-		QZLrFP1t5WKmsalg7nY5ytnWQCs=
+		MAat5y8zPBrWO40MnA/5FggOQv0=
 		</data>
-		<key>Modules/RxRelay.swiftmodule/x86_64.swiftdoc</key>
+		<key>Modules/module.modulemap</key>
 		<data>
-		g7QxgElR3vdLfgtenQy3VH6FDjM=
-		</data>
-		<key>Modules/RxRelay.swiftmodule/x86_64.swiftinterface</key>
-		<data>
-		sjnZB8DMKaSDkhfYILlBk0bD+5s=
-		</data>
-		<key>Modules/RxRelay.swiftmodule/x86_64.swiftmodule</key>
-		<data>
-		QZLrFP1t5WKmsalg7nY5ytnWQCs=
+		8mvT7hQlc3oni18JwCL9IMCb70w=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -91,209 +59,121 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			vsDeZuGi9t7lJYDM76V7IaR9GKc=
+			6qc7Z1ADByE/Pa9xRI8WhM2KeXY=
 			</data>
 			<key>hash2</key>
 			<data>
-			J2L1fiQUzMNW4cSeruN7s3nAE7aqujzStOK7OlCxlSI=
+			axuMs1lHTngWD5yre60X1u1/DVaRSlVf7d8lYU9iJ5w=
 			</data>
 		</dict>
 		<key>Modules/RxRelay.swiftmodule/arm64-apple-watchos-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ARbxZllx9Phxl/1PJI1iE4Q6QYs=
+			HOWNiPr/GBSdBHpSk2AvC/9UbsE=
 			</data>
 			<key>hash2</key>
 			<data>
-			7Sliv/NDec1p4+lOP92tJJWlYKXjQNwhRX4dWuWfY40=
+			aBxQRwmOIg9JdE3l4l8BJbfDKlj11yUSd7lNhA8dRuM=
 			</data>
 		</dict>
 		<key>Modules/RxRelay.swiftmodule/arm64-apple-watchos-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			gcBGs1q8dGSey1/nKhk+lEtgz/0=
+			F/1Bk3S2lRAuBWPSizReOsHPZD8=
 			</data>
 			<key>hash2</key>
 			<data>
-			hGyD6MPAGOk+asYwI2Hic6CPD+Z3+G1kV3STeP7a6gM=
+			EXgvOAFLVfabqyB+IMbymrICPLIymcRp78/cswxKTVE=
 			</data>
 		</dict>
 		<key>Modules/RxRelay.swiftmodule/arm64-apple-watchos-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			8XcaHXFm8yVioxBvfRuNrYth8DE=
+			L0R2yIO66FRrrcxGmCuRexURy1U=
 			</data>
 			<key>hash2</key>
 			<data>
-			Z4gYXdzr3jznm3sNyxZ4WtGKw00Z17aP3nCQp/GFqxc=
-			</data>
-		</dict>
-		<key>Modules/RxRelay.swiftmodule/arm64.swiftdoc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			ARbxZllx9Phxl/1PJI1iE4Q6QYs=
-			</data>
-			<key>hash2</key>
-			<data>
-			7Sliv/NDec1p4+lOP92tJJWlYKXjQNwhRX4dWuWfY40=
-			</data>
-		</dict>
-		<key>Modules/RxRelay.swiftmodule/arm64.swiftinterface</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			gcBGs1q8dGSey1/nKhk+lEtgz/0=
-			</data>
-			<key>hash2</key>
-			<data>
-			hGyD6MPAGOk+asYwI2Hic6CPD+Z3+G1kV3STeP7a6gM=
-			</data>
-		</dict>
-		<key>Modules/RxRelay.swiftmodule/arm64.swiftmodule</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			8XcaHXFm8yVioxBvfRuNrYth8DE=
-			</data>
-			<key>hash2</key>
-			<data>
-			Z4gYXdzr3jznm3sNyxZ4WtGKw00Z17aP3nCQp/GFqxc=
+			eNzE9HX7no+dB6AU0RuiVCjw286W8wggHwskHgZHZ+g=
 			</data>
 		</dict>
 		<key>Modules/RxRelay.swiftmodule/i386-apple-watchos-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			NVjhg2VJevPTarQQCgK4PT1eqKA=
+			wdVxvsxEjMx4N9rEGLIvREmSkPI=
 			</data>
 			<key>hash2</key>
 			<data>
-			dqHLowQS/FZgEDFMzwBBBbPlNBAKVr0p9t9GZg3SJlk=
+			B50W0Hs0TG8gdgS9IssbPB322j6AMi55/LEWZ7D31EM=
 			</data>
 		</dict>
 		<key>Modules/RxRelay.swiftmodule/i386-apple-watchos-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			4TS8/n2aHkDXcnrsSU19gkj/3IQ=
+			/DaEDHuQ4Lzg7I8EPOqeJIYS7ZU=
 			</data>
 			<key>hash2</key>
 			<data>
-			u/RfXGlrh9V7gaGC2CjX9Mfj3uDbWUh1Fr030fKgH2o=
+			UeHzEgxvJ63GXEdMl+g6xF4JPdMwCcA2ejySrZh4g90=
 			</data>
 		</dict>
 		<key>Modules/RxRelay.swiftmodule/i386-apple-watchos-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Qm5XWb0wwcsxzdKdYTBXyErE3xo=
+			kpNgv6Q+CvLPc41aGLHCOYocGFw=
 			</data>
 			<key>hash2</key>
 			<data>
-			zPJxa4RCjzCj5khzNfuwb3s0/o+1mnUpyP+B2G3ihDE=
-			</data>
-		</dict>
-		<key>Modules/RxRelay.swiftmodule/i386.swiftdoc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			NVjhg2VJevPTarQQCgK4PT1eqKA=
-			</data>
-			<key>hash2</key>
-			<data>
-			dqHLowQS/FZgEDFMzwBBBbPlNBAKVr0p9t9GZg3SJlk=
-			</data>
-		</dict>
-		<key>Modules/RxRelay.swiftmodule/i386.swiftinterface</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			4TS8/n2aHkDXcnrsSU19gkj/3IQ=
-			</data>
-			<key>hash2</key>
-			<data>
-			u/RfXGlrh9V7gaGC2CjX9Mfj3uDbWUh1Fr030fKgH2o=
-			</data>
-		</dict>
-		<key>Modules/RxRelay.swiftmodule/i386.swiftmodule</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Qm5XWb0wwcsxzdKdYTBXyErE3xo=
-			</data>
-			<key>hash2</key>
-			<data>
-			zPJxa4RCjzCj5khzNfuwb3s0/o+1mnUpyP+B2G3ihDE=
+			1CjZLRw0ybszDezZOGZ6Z1uk+XJBmi0Rv3qSSKIXLjQ=
 			</data>
 		</dict>
 		<key>Modules/RxRelay.swiftmodule/x86_64-apple-watchos-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			g7QxgElR3vdLfgtenQy3VH6FDjM=
+			XU9c0Jk2h58xP+BSbQn9vH6T1/s=
 			</data>
 			<key>hash2</key>
 			<data>
-			7Ka0lLDz8RSuupIexZTpymFReU2TdSLasDoWfFoDvdg=
+			y5bBNfWCqVNGMh7gz+3hubrA4+bll8+WSUa+iweeO1U=
 			</data>
 		</dict>
 		<key>Modules/RxRelay.swiftmodule/x86_64-apple-watchos-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			sjnZB8DMKaSDkhfYILlBk0bD+5s=
+			fhFI2DXb+SQv4adK/ulCYugK0oI=
 			</data>
 			<key>hash2</key>
 			<data>
-			Eq9CBXVjpm//DXz0h6cmmYtz/5gIM4ocku0S2ByagRU=
+			0RhJ7/FCjlauleC38Vb8KUt+dgjY1kwrD/gepiL1caM=
 			</data>
 		</dict>
 		<key>Modules/RxRelay.swiftmodule/x86_64-apple-watchos-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			QZLrFP1t5WKmsalg7nY5ytnWQCs=
+			MAat5y8zPBrWO40MnA/5FggOQv0=
 			</data>
 			<key>hash2</key>
 			<data>
-			8hiR98bGvc7gxshSx0BVVLtachIfaPy3Jiw1tbVGFKs=
+			2q7Utb3Uu13g9r7pLizMV/cloaaOkskfbpTTGFMSEr4=
 			</data>
 		</dict>
-		<key>Modules/RxRelay.swiftmodule/x86_64.swiftdoc</key>
+		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			g7QxgElR3vdLfgtenQy3VH6FDjM=
+			8mvT7hQlc3oni18JwCL9IMCb70w=
 			</data>
 			<key>hash2</key>
 			<data>
-			7Ka0lLDz8RSuupIexZTpymFReU2TdSLasDoWfFoDvdg=
-			</data>
-		</dict>
-		<key>Modules/RxRelay.swiftmodule/x86_64.swiftinterface</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			sjnZB8DMKaSDkhfYILlBk0bD+5s=
-			</data>
-			<key>hash2</key>
-			<data>
-			Eq9CBXVjpm//DXz0h6cmmYtz/5gIM4ocku0S2ByagRU=
-			</data>
-		</dict>
-		<key>Modules/RxRelay.swiftmodule/x86_64.swiftmodule</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			QZLrFP1t5WKmsalg7nY5ytnWQCs=
-			</data>
-			<key>hash2</key>
-			<data>
-			8hiR98bGvc7gxshSx0BVVLtachIfaPy3Jiw1tbVGFKs=
+			wPI+/zxEumuTk2JO6HcehglO6BsrF5XyMEMEhX4KfPI=
 			</data>
 		</dict>
 	</dict>

@@ -1,7 +1,11 @@
+import RxCocoa
 import UIKit
 
-open class HelloWorld {
-	open func hello() {
-		UI_USER_INTERFACE_IDIOM()
+public class ViewController: UIViewController {
+	public override func viewDidLoad() {
+		super.viewDidLoad()
+
+		let foo = self.rx.title
 	}
 }
+

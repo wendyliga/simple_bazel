@@ -6,59 +6,39 @@
 	<dict>
 		<key>Headers/RxRelay-Swift.h</key>
 		<data>
-		WFXWXCmjR18anpa6bjFfQo5LJQE=
+		8r4h0g25GnIuyNIDFQkyXD8yYyE=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		IaVQcxKyuCDde36/yOUXu9hCepY=
+		CoAkvD6Y/v+kYUzl6+Xai8kgle4=
 		</data>
 		<key>Modules/RxRelay.swiftmodule/arm64-apple-tvos-simulator.swiftdoc</key>
 		<data>
-		5/YVrzinGKUVVIZqkgSTbBky/w0=
+		y4J8s2OgCyVZc3rWA1WFJ/0d6qg=
 		</data>
 		<key>Modules/RxRelay.swiftmodule/arm64-apple-tvos-simulator.swiftinterface</key>
 		<data>
-		xHhqNISvIP2duXN4J7CFHtq52l0=
+		oEtiEEk9EvDynYMzB/ZL4AACzp8=
 		</data>
 		<key>Modules/RxRelay.swiftmodule/arm64-apple-tvos-simulator.swiftmodule</key>
 		<data>
-		wUcLc9XEMZpDBztcH+zQFWFYwak=
-		</data>
-		<key>Modules/RxRelay.swiftmodule/arm64.swiftdoc</key>
-		<data>
-		5/YVrzinGKUVVIZqkgSTbBky/w0=
-		</data>
-		<key>Modules/RxRelay.swiftmodule/arm64.swiftinterface</key>
-		<data>
-		xHhqNISvIP2duXN4J7CFHtq52l0=
-		</data>
-		<key>Modules/RxRelay.swiftmodule/arm64.swiftmodule</key>
-		<data>
-		wUcLc9XEMZpDBztcH+zQFWFYwak=
+		xHAF552/bgzLgbwCQJpxpW97G/c=
 		</data>
 		<key>Modules/RxRelay.swiftmodule/x86_64-apple-tvos-simulator.swiftdoc</key>
 		<data>
-		uR3cBcibajolOQMq2vKjtZVEnAw=
+		yfIG18/MFsibh74tY5aLpAP2hOk=
 		</data>
 		<key>Modules/RxRelay.swiftmodule/x86_64-apple-tvos-simulator.swiftinterface</key>
 		<data>
-		kG2RzIK5SWoKHdFWT9ke459kc0g=
+		e3FsZARCNp+Xt24b0qS+22isjjQ=
 		</data>
 		<key>Modules/RxRelay.swiftmodule/x86_64-apple-tvos-simulator.swiftmodule</key>
 		<data>
-		yEi7T8q92H1cvJBhxYFluXxDrUI=
+		Q8pgxbvu8OVAjfkKt3i0400oSfc=
 		</data>
-		<key>Modules/RxRelay.swiftmodule/x86_64.swiftdoc</key>
+		<key>Modules/module.modulemap</key>
 		<data>
-		uR3cBcibajolOQMq2vKjtZVEnAw=
-		</data>
-		<key>Modules/RxRelay.swiftmodule/x86_64.swiftinterface</key>
-		<data>
-		kG2RzIK5SWoKHdFWT9ke459kc0g=
-		</data>
-		<key>Modules/RxRelay.swiftmodule/x86_64.swiftmodule</key>
-		<data>
-		yEi7T8q92H1cvJBhxYFluXxDrUI=
+		8mvT7hQlc3oni18JwCL9IMCb70w=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -67,143 +47,88 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			WFXWXCmjR18anpa6bjFfQo5LJQE=
+			8r4h0g25GnIuyNIDFQkyXD8yYyE=
 			</data>
 			<key>hash2</key>
 			<data>
-			jUWoYOWYToCzbd3SWO2zzlIPSIbpFWXuJXTmfQtQsLM=
+			iFY6qDlXZa+tpOMh6cD50SCZJV8ZGaWrQrzidtdeork=
 			</data>
 		</dict>
 		<key>Modules/RxRelay.swiftmodule/arm64-apple-tvos-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			5/YVrzinGKUVVIZqkgSTbBky/w0=
+			y4J8s2OgCyVZc3rWA1WFJ/0d6qg=
 			</data>
 			<key>hash2</key>
 			<data>
-			P3MI2iVFcanWHIQrupluICTMbIUiw93ECmBjFN/Fwww=
+			x3hCNvTeXC56VKxKBddjUY7v73EwmiQ+bIqTP8EvJn4=
 			</data>
 		</dict>
 		<key>Modules/RxRelay.swiftmodule/arm64-apple-tvos-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			xHhqNISvIP2duXN4J7CFHtq52l0=
+			oEtiEEk9EvDynYMzB/ZL4AACzp8=
 			</data>
 			<key>hash2</key>
 			<data>
-			8wShiHTMvfWlv3/YHVrZ+mQKCkTOB4/gM42KpD+F5cI=
+			Gar1LdYHR18q8cyGfTYE4y0x8R3yqhwwMSQGXFQhfEY=
 			</data>
 		</dict>
 		<key>Modules/RxRelay.swiftmodule/arm64-apple-tvos-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			wUcLc9XEMZpDBztcH+zQFWFYwak=
+			xHAF552/bgzLgbwCQJpxpW97G/c=
 			</data>
 			<key>hash2</key>
 			<data>
-			vaxT7ySPlUOjBPoWB5h7cWTerxXOm23r2q5khqEBRxU=
-			</data>
-		</dict>
-		<key>Modules/RxRelay.swiftmodule/arm64.swiftdoc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			5/YVrzinGKUVVIZqkgSTbBky/w0=
-			</data>
-			<key>hash2</key>
-			<data>
-			P3MI2iVFcanWHIQrupluICTMbIUiw93ECmBjFN/Fwww=
-			</data>
-		</dict>
-		<key>Modules/RxRelay.swiftmodule/arm64.swiftinterface</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			xHhqNISvIP2duXN4J7CFHtq52l0=
-			</data>
-			<key>hash2</key>
-			<data>
-			8wShiHTMvfWlv3/YHVrZ+mQKCkTOB4/gM42KpD+F5cI=
-			</data>
-		</dict>
-		<key>Modules/RxRelay.swiftmodule/arm64.swiftmodule</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			wUcLc9XEMZpDBztcH+zQFWFYwak=
-			</data>
-			<key>hash2</key>
-			<data>
-			vaxT7ySPlUOjBPoWB5h7cWTerxXOm23r2q5khqEBRxU=
+			3N1qBC/Gi6CjAVdWU/6EaDd/4dDRRDQ3m/XCljsiHqs=
 			</data>
 		</dict>
 		<key>Modules/RxRelay.swiftmodule/x86_64-apple-tvos-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			uR3cBcibajolOQMq2vKjtZVEnAw=
+			yfIG18/MFsibh74tY5aLpAP2hOk=
 			</data>
 			<key>hash2</key>
 			<data>
-			6QHjqMfdwtC9PbGOebjnZmgWMJ5jgnuKMJDVWOfIRzg=
+			X8wVxRLzJdBzK4qqNNvrOC5BOXllkJsJm5v6YffZY8Y=
 			</data>
 		</dict>
 		<key>Modules/RxRelay.swiftmodule/x86_64-apple-tvos-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			kG2RzIK5SWoKHdFWT9ke459kc0g=
+			e3FsZARCNp+Xt24b0qS+22isjjQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZcJkeprHWbGfsIcJNIQnltaqc5AXnDBNq7WYDAyS8mQ=
+			38pfbNGIqlOE/U1GWp1xObQLoQNQubV0eZu5EgIg0Vo=
 			</data>
 		</dict>
 		<key>Modules/RxRelay.swiftmodule/x86_64-apple-tvos-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			yEi7T8q92H1cvJBhxYFluXxDrUI=
+			Q8pgxbvu8OVAjfkKt3i0400oSfc=
 			</data>
 			<key>hash2</key>
 			<data>
-			TUNztVFK/lZ5pDgzLBbJTvVPwePetFv/hew9Su5dpoU=
+			VGcFb5PdXzg7ExzHEA/59lwswbEj4iamrzbNB8AbXGk=
 			</data>
 		</dict>
-		<key>Modules/RxRelay.swiftmodule/x86_64.swiftdoc</key>
+		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			uR3cBcibajolOQMq2vKjtZVEnAw=
+			8mvT7hQlc3oni18JwCL9IMCb70w=
 			</data>
 			<key>hash2</key>
 			<data>
-			6QHjqMfdwtC9PbGOebjnZmgWMJ5jgnuKMJDVWOfIRzg=
-			</data>
-		</dict>
-		<key>Modules/RxRelay.swiftmodule/x86_64.swiftinterface</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			kG2RzIK5SWoKHdFWT9ke459kc0g=
-			</data>
-			<key>hash2</key>
-			<data>
-			ZcJkeprHWbGfsIcJNIQnltaqc5AXnDBNq7WYDAyS8mQ=
-			</data>
-		</dict>
-		<key>Modules/RxRelay.swiftmodule/x86_64.swiftmodule</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			yEi7T8q92H1cvJBhxYFluXxDrUI=
-			</data>
-			<key>hash2</key>
-			<data>
-			TUNztVFK/lZ5pDgzLBbJTvVPwePetFv/hew9Su5dpoU=
+			wPI+/zxEumuTk2JO6HcehglO6BsrF5XyMEMEhX4KfPI=
 			</data>
 		</dict>
 	</dict>

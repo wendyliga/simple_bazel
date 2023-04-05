@@ -5,5 +5,8 @@ swift_library(
     name = "RxSwift",
     module_name = "RxSwift",
     srcs = glob(["RxSwift/**/*.swift"], exclude=['RxSwift/Platform/**/*.swift']) + glob(["Platform/**/*.swift"]),
+    copts = [
+        '-swift-version', '5'
+    ],
     visibility = ["//visibility:public"],
 )
