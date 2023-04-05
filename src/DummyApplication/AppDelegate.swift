@@ -1,5 +1,8 @@
 import UIKit
 
+import SwiftRxCocoa
+import Foo
+
 @UIApplicationMain
 final class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
@@ -13,6 +16,9 @@ final class AppDelegate: UIResponder, UIApplicationDelegate {
 
         window?.rootViewController = nav
         window?.makeKeyAndVisible()
+
+        print(ViewController().viewDidLoad())
+        print(Foo().foo())
 
         return true
     }

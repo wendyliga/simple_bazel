@@ -4,7 +4,7 @@ apple_dynamic_xcframework_import(
     name = 'RxRelay',
     xcframework_imports = glob(["RxRelay.xcframework/**"]),
     deps = [
-        "//vendor/RxSwift",
+        '@RxSwift//:RxSwift'
     ],
     visibility = ['//visibility:public']
 )
