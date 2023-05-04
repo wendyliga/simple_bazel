@@ -4,6 +4,19 @@ load("@bazel_tools//tools/build_defs/repo:http.bzl", "http_archive")
 load("@bazel_tools//tools/build_defs/repo:http.bzl", "http_archive")
 
 http_archive(
+    name = "build_bazel_rules_ios",
+    sha256 = "4faa33a671f615500d3ec0d04d89e390103bcc1abb5e973c8fb1c2510af85985",
+    url = "https://github.com/bazel-ios/rules_ios/releases/download/1.0.1/rules_ios.1.0.1.tar.gz",
+)
+
+load(
+    "@build_bazel_rules_ios//rules:repositories.bzl",
+    "rules_ios_dependencies"
+)
+
+rules_ios_dependencies()
+
+http_archive(
     name = "build_bazel_rules_apple",
     sha256 = "9e26307516c4d5f2ad4aee90ac01eb8cd31f9b8d6ea93619fc64b3cbc81b0944",
     url = "https://github.com/bazelbuild/rules_apple/releases/download/2.2.0/rules_apple.2.2.0.tar.gz",
@@ -36,6 +49,13 @@ load(
 )
 
 apple_support_dependencies()
+
+load(
+    "@com_google_protobuf//:protobuf_deps.bzl",
+    "protobuf_deps",
+)
+
+protobuf_deps()
 
 http_archive(
     name = 'RxSwift',
